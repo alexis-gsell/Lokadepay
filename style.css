@@ -58,12 +58,12 @@
     top: 220px;
     width: 100%;
     float: right;
-    padding: 34px 215px 34px 500px;
+    padding: 34px 150px 40px 500px;
 }
 
 .topbar nav a {
-    font-family: "Mandalore", sans-serif;
-    font-size: 48px;
+    font-family: "Verdana", sans-serif;
+    font-size: 36px;
     margin: 0 55px;
     color: #fff;
     text-decoration: none;
