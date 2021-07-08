@@ -123,7 +123,6 @@
     content: "";
     display: block;
     height: 2px;
-    left: 50%;
     position: absolute;
     background: #c70000;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
@@ -133,7 +132,6 @@
 
 .link:hover:after, .link:focus:after {
     width: 30%; 
-    left: 35%; 
 }
 
 .link:active:after {  
@@ -142,11 +140,10 @@
     content: "";
     display: block;
     height: 2px;
-    left: 8%;
     position: absolute;
     background: #c70000;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 80%;
+    transition: width 0.2s ease 0s, left 0s ease 0s;
+    width: 100%;
 }
 
 .linkselected:after {
@@ -154,11 +151,10 @@
     content: "";
     display: block;
     height: 2px;
-    left: 8%;
     position: absolute;
     background: #c70000;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 80%;
+    transition: width 0.2s ease 0s, left 0.3s ease 0s;
+    width: 100%;
 } 
 
 .completaccueil {
@@ -168,7 +164,7 @@
     top: 160px;
     position: relative;
     width: 100%;
-    height: 37.5rem;
+    height: 47.53rem;
 }
 
 .completaccueil .livetwitch {
@@ -272,7 +268,6 @@
       justify-content: space-around;
       flex-wrap: wrap;
       top: 12rem;
-      bottom: 12rem;  
 }
 
 .spacer3 {
@@ -281,15 +276,14 @@
       height: 8px;
       width: 100%;
       background: linear-gradient(0.25turn, #2c0000, #8B0000, #2c0000);      
-      margin-top: 10rem;  
 }
 
 .footer {
-      position: absolute;
-      background:  #161616;
-      height: 15rem;
-      width: 100%;
-      top: 48rem;
+    position: absolute;
+    background:  #161616;
+    height: 15rem;
+    width: 100%;
+    top: auto;
 }
 
 .livebox {
@@ -452,9 +446,8 @@
 
 .bgplanning {
     position: relative;
-    top: 10rem;
     width: 100%;
-    height: 38rem;
+    height: 60rem;
     display: flex;
     justify-content: center;
     align-content: flex-end;
@@ -463,5 +456,4 @@
 
 .planning {
     position: absolute;
-    bottom: 0;
 }
